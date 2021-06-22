@@ -12,6 +12,6 @@ const homepage = (() => {
     
     document.body.style.backgroundImage = "url('https://cdn.pixabay.com/photo/2021/02/06/19/29/pancakes-5989136_1280.jpg')";
     document.body.style.backgroundRepeat = 'no-repeat';
-})();
+});
 
 export { homepage }

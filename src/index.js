@@ -1,4 +1,7 @@
 import { homepage } from './home'
 
-window.onload = homepage;
+const pageLoad = (() => {
+    window.onload = homepage;
+})();
+
 console.log('Hi restaurant!');
