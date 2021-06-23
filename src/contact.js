@@ -1,10 +1,10 @@
 const contactUs = (() => {
-    let body = document.querySelector('body');
+    let content = document.querySelector('#content');
 
     let contactDiv = document.createElement('div');
     contactDiv.className = 'contactDiv';
 
-    body.appendChild(contactDiv);
+    content.appendChild(contactDiv);
 
     let header = document.createElement('h1');
     header.textContent = 'Contact Us';

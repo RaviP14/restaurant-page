@@ -12,12 +12,12 @@ const menu = (() => {
     let lasagne = new item ('Lasagne', 'Main', '£14.95', 'The best Lasagne, served with garlic bread.');
     let pancakes = new item ('Pancakes', 'Dessert', '£12.95', 'Luxurious pancakes served with maple syrup and topping of your choice.');
 
-    let body = document.querySelector('body');
+    let content = document.querySelector('#content');
 
     let menuDiv = document.createElement('div');
     menuDiv.className = 'menuDiv';
 
-    body.appendChild(menuDiv);
+    content.appendChild(menuDiv);
     
     function addItem(dish) {
         let divItem = document.createElement('div')
