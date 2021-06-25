@@ -16,7 +16,7 @@ const homepage = (() => {
     homeDiv.appendChild(midText);
 
     let imgHome = document.createElement('img');
-    imgHome.src = 'https://cdn.pixabay.com/photo/2015/04/20/13/30/kitchen-731351_1280.jpg'
+    imgHome.src = './images/kitchen_1280.jpg'
     imgHome.style.height = '511.8px'
     imgHome.style.width = '768px'
     homeDiv.appendChild(imgHome);

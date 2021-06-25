@@ -41,7 +41,9 @@ body, html {
     min-width: 50rem;
     color: #000000;
     font-size: 20px;
+    min-height: 86%;
 }
+
 .homeDiv {
     font-size: 26px;
     align-items: center;
@@ -72,14 +74,13 @@ body, html {
     background-color: #d4a373e3;
 }
 
-
 #content {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
     min-height: 30rem;
-    background-image: url("https://cdn.pixabay.com/photo/2015/05/15/14/55/cafe-768771_1280.jpg");
+    background-image: url("./images/cafe_1280.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;

@@ -10,19 +10,19 @@ const menu = (() => {
     }
     let garlicBread = new item ('Garlic Bread', 'Starter', '£4.89',
     'Fresh bread with a garlic sauce spread over it',
-    'https://cdn.pixabay.com/photo/2017/09/23/00/00/bread-2777583_1280.jpg');
+    './images/garlic_bread_1280.jpg');
 
     let pizza = new item('Cheese Pizza', 'Main', '£19.99',
     'Italian style pizza base topped with totamto sauce and cheese',
-    'https://cdn.pixabay.com/photo/2017/12/05/20/09/pizza-3000274_1280.jpg');
+    './images/pizza_1280.jpg');
 
     let lasagne = new item ('Lasagne', 'Main', '£14.95',
     'The best Lasagne, served with garlic bread.',
-    'https://cdn.pixabay.com/photo/2021/02/04/12/48/food-5981242_1280.jpg');
+    './images/lasagne_1280.jpg');
     
     let pancakes = new item ('Pancakes', 'Dessert', '£12.95',
     'Luxurious pancakes served with maple syrup and topping of your choice.',
-    'https://cdn.pixabay.com/photo/2021/02/06/19/29/pancakes-5989136_1280.jpg');
+    './images/pancakes_1280.jpg');
 
     let content = document.querySelector('#content');
 
@@ -65,7 +65,6 @@ const menu = (() => {
     addItem(pizza)
     addItem(lasagne)
     addItem(pancakes)
-    //change into grid or table - card style?
 });
 
 export { menu }
