@@ -15,9 +15,11 @@ const homepage = (() => {
     midText.setAttribute('style', 'white-space: pre;');
     homeDiv.appendChild(midText);
 
-    /*document.body.style.backgroundImage = "url('https://cdn.pixabay.com/photo/2013/12/11/13/49/holiday-226830_1280.jpg')";
-    document.body.style.backgroundRepeat = 'no-repeat';
-    document.body.style.backgroundSize = 'cover'; */
+    let imgHome = document.createElement('img');
+    imgHome.src = 'https://cdn.pixabay.com/photo/2015/04/20/13/30/kitchen-731351_1280.jpg'
+    imgHome.style.height = '511.8px'
+    imgHome.style.width = '768px'
+    homeDiv.appendChild(imgHome);
 });
 
 export { homepage }
