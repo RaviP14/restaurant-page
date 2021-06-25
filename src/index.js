@@ -21,9 +21,9 @@ const pageLoad = (() => {
 })();
 
 const tabs = (() => {
-    let homeBtn = document.querySelector('.homebtn');
-    let menuBtn = document.querySelector('.menubtn');
-    let contactBtn = document.querySelector('.contactbtn');
+    let homeBtn = document.querySelector('#homebtn');
+    let menuBtn = document.querySelector('#menubtn');
+    let contactBtn = document.querySelector('#contactbtn');
 
     homeBtn.addEventListener('click', () => {
         removePage()
@@ -46,6 +46,16 @@ const tabs = (() => {
             contents.removeChild(contents.firstChild);
         }
     }
+
+    let tabs = document.querySelectorAll('.tab');
+    tabs.forEach(clickedTab => {
+        clickedTab.addEventListener('click', () => {
+            tabs.forEach(tab => {
+                tab.classList.remove('active');
+            })
+            clickedTab.classList.add('active');
+        })
+    })
 })();
 
 console.log('Hi restaurant!');
