@@ -1,0 +1,80 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FAEDCD;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.namediv {
+    text-align: center;
+}
+
+.navbar {
+    text-align: center;
+}
+
+#homebtn, #menubtn, #contactbtn{
+    border: none;
+    color: #000000;
+    background-color: unset;
+    font-size: 16px;
+    font-weight: 700;
+}
+#homebtn:hover, #menubtn:hover, #contactbtn:hover {
+    color: #B9C29E;
+}
+
+.tab.active {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.homeDiv, .menuDiv, .contactDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    margin: 5%;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #faedcde7;
+    max-width: 50rem;
+    color: #000000;
+    font-size: 20px;
+}
+
+.garlicbread, .cheesepizza, .lasagne, .pancakes{
+    display: flex;
+    align-self: center;
+    background-color: #ccd5aec9;
+    padding: 1rem;
+    margin: 5%;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    max-width: 42rem;
+}
+
+.garlicbread > *, .cheesepizza > *, .lasagne > *, .pancakes > *{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.garlicbread:hover, .cheesepizza:hover, .lasagne:hover, .pancakes:hover {
+    background-color: #d4a373e3;
+}
+
+
+#content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+    min-height: 30rem;
+    background-image: url("https://cdn.pixabay.com/photo/2015/05/15/14/55/cafe-768771_1280.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
