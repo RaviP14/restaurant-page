@@ -27,21 +27,28 @@ body, html {
 }
 
 .tab.active {
-    color: #000000;
+    color: red;
     text-decoration: underline;
 }
 
 .homeDiv, .menuDiv, .contactDiv {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     padding: 1rem;
     margin: 5%;
     border-radius: 15px 15px 15px 15px;
     background-color: #faedcde7;
-    max-width: 50rem;
+    min-width: 50rem;
     color: #000000;
     font-size: 20px;
+}
+.homeDiv {
+    font-size: 26px;
+    align-items: center;
+}
+
+.menuDiv {
+    justify-content: center;
 }
 
 .garlicbread, .cheesepizza, .lasagne, .pancakes{
